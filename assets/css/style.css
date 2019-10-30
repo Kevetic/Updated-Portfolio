@@ -73,9 +73,12 @@ body {
 
 .hidden-slide {
     align-content: center;
+    float: left;
     position: absolute;
-    top: 0;
-    left: 0;
+    word-wrap: normal;
+    padding: 20px;
+    top: 20;
+    left: 20;
 }
   
   
