@@ -66,9 +66,10 @@ body {
     text-align: center;
     top: calc(100% - 2em);
     color: white;
-    background: rgba(0, 0, 0, 0.5);
-    font-size: 2em;
+    background: rgba(43, 7, 7, 0.733);
+    font-size: 1em;
     transform: rotate(0deg) skew(-5deg);
+    z-index: 5;
   }
   /* .container .slide img {
     width: 100%;
