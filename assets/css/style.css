@@ -14,6 +14,16 @@ body {
     position: relative;
     background-size: cover;
   }
+
+  .hidden-slide {
+    align-content: center;
+    float: left;
+    position: absolute;
+    word-wrap: normal;
+    padding: 20px;
+    top: 20;
+    left: 20;
+}
   
   .container {
     display: flex;
@@ -71,14 +81,58 @@ body {
     margin-right: 1em;
   }
 
-.hidden-slide {
-    align-content: center;
+  .fragment {
+    font-size: 12px;
+    position: relative;
+    color: white;
+    font-family: tahoma;
+    height: 140px;
+    border: 1px solid #ccc;
+    color: #555;
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+    width: 43%;
+    margin: auto;
     float: left;
-    position: absolute;
-    word-wrap: normal;
-    padding: 20px;
-    top: 20;
-    left: 20;
-}
+
+  }
+  
+  .fragment:hover {
+      box-shadow: 2px 2px 5px rgba(0,0,0,.2);
+  }
+  
+  .fragment img { 
+    float: left;
+    margin-right: 10px;
+    
+  }
   
   
+  .fragment h3 {
+    padding: 0;
+    word-wrap: break-word;
+    margin: 0;
+    color: white;
+    text-align: center;
+  }
+
+  #a, #b, #c, #d {
+      margin: 10px;
+  }
+
+  #kev {
+      border: 1px solid white;
+      padding: 5px;
+      margin: auto;
+  }
+
+  #media {
+    word-wrap: break-word;
+  }
+
+  .values {
+      padding: 10px;
+      margin: 10px;
+  }
