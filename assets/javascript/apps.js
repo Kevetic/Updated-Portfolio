@@ -1,10 +1,17 @@
 $(document).ready(function () {
-
+    $('#container').hide();
     $('#hidden-slidek').hide();
     $('#hidden-slideE').hide();
     $('#hidden-slideV').hide();
     $('#hidden-slideI').hide();
     $('#hidden-slideN').hide();
+
+
+    $('#start').on('click', function(){
+        $('#hero-page').fadeOut(1000);
+        $('h1').addClass('fadeOutDown animated slower');
+        $('#container').fadeIn(5000);
+    })
 
     // Slide "K"
     $('#slidek').mouseenter(function () {
