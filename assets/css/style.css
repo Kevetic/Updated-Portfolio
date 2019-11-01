@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
 body {
     margin: 0;
     min-height: 100vh;
     background: rgb(44, 42, 42);
-    font-family: sans-serif;
+    font-family: 'Playfair Display', serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,6 +18,7 @@ body {
   }
 
   .hidden-slide {
+    /* background-color: black; */
     align-content: center;
     color: black;
     text-align: center;
@@ -27,7 +30,7 @@ body {
     left: 20;
     /* z-index: -1; */
 }
-  #hidden-slidek {
+  /* #hidden-slidek {
     background: url(../images/image_part_001.jpg);
     background-color: black;
     background-position: center;
@@ -73,7 +76,7 @@ body {
     background-size: cover;
     position: relative;
     background-size: cover;
-}
+} */
 
 .container {
   display: flex;
@@ -90,13 +93,14 @@ body {
   position: relative;
 }
 .container .slide .slide-title {
-  color: rgba(230, 24, 24, 0.733);
-  background: rgba(0, 0, 0, 0.75);
+  color: rgba(161, 22, 22, 0.685);
+  background: rgba(0, 0, 0, 0.89);
   padding: 0.5em;
   transform: rotate(-90deg);
   transform-origin: 0% 0%;
   transition: all 0.5s ease-in-out;
   min-width: 100%;
+  border: 1px solid rgba(158, 149, 149, 0.658);
   text-align: center;
   position: absolute;
   bottom: 0;
@@ -113,7 +117,8 @@ body {
 .container .slide:hover .slide-title {
   text-align: left;
   top: calc(100% - 2em);
-  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgba(161, 22, 22, 0.685);
   font-size: 2em;
   transform: rotate(0deg) skew(-5deg);
   z-index: 30;
@@ -130,22 +135,22 @@ body {
 }
 
 .fragments {
-    font-size: 10px;
+    font-size: 15px;
     position: relative;
     color: black;
-    font-family: tahoma;
+    font-family: 'serif';
     height: 20%;
     border: 3px solid #ccc;
-    color: black;
+    color: white;
     display: block;
-    padding: 15px;
+    padding: 10px;
     margin: auto;
     box-sizing: border-box;
     text-decoration: none;
     width: 40%;
-    margin: auto;
     float: left;
     z-index: 30;
+    
 }
   
   .fragments:hover {
@@ -154,29 +159,38 @@ body {
   
   .fragments img { 
     align-content: center;
-    margin-right: 10px;
+    margin-right: 100px;
+    word-wrap: break-word;
+    width: 10%;
     
   }
   
   
-  .fragment h3 {
+  /* .fragment h3 {
     padding: 0;
     word-wrap: break-word;
     margin: 0;
     color: white;
-    text-align: center;
+    text-align: left;
     float: right;
-  }
+    margin-top: 10%;
+
+  } */
+
 
   #a, #b, #c, #d {
+    font-size: 15px;
     height: 130px;
-    width: 130px;
+    text-align: center;
+    word-wrap: inherit;
+    width: 40%;
+
   }
   
   #a {
     float: left;
     margin: 10px;
-  }
+   }
 
   #b {
     margin: 10px;
@@ -184,16 +198,18 @@ body {
 
   #c {
     margin: 10px;
+    top: 30px;
   }
 
   #d {
     margin: 10px;
+    top: 30px;
   }
 
   #kev {
-      border: 1px solid white;
-      padding: 5px;
-      margin: auto;
+    border: 3px solid black;
+      padding: 1px;
+      margin: 5px;
       width: 250px;
       height: 400px;
   }
@@ -210,7 +226,7 @@ body {
   }
 
   .slideimg {
-    border: 5px solid;
+    border: 5px solid rgba(29, 22, 22, 0.486);
     filter: grayscale(100%);
   }
 
@@ -227,3 +243,8 @@ body {
     color: rgba(255, 255, 255, 0.877);
   
   }
+
+ .text {
+   position: relative;
+   top: 15%;
+ }

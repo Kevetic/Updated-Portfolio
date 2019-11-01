@@ -10,7 +10,7 @@ $(document).ready(function () {
     $('#slidek').mouseenter(function () {
         setTimeout(function () {
             $('#slideimgk').hide();
-            $('#hidden-slidek').fadeIn(1000);
+            $('#hidden-slidek').fadeIn(3000);
             $('#slide-titlek').text('Kevin Le');
         }).fadeIn(3000);
     });
