@@ -178,7 +178,7 @@ body {
   } */
 
 
-  #a, #b, #c, #d {
+  #a, #b, #c, #d, #e, #f {
     font-size: 15px;
     height: 130px;
     text-align: center;
@@ -202,6 +202,11 @@ body {
   }
 
   #d {
+    margin: 10px;
+    top: 30px;
+  }
+
+  #f {
     margin: 10px;
     top: 30px;
   }
